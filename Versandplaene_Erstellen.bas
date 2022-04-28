@@ -54,6 +54,7 @@ sWochentag = Weekday(aktuellDatum)
 ' vbSaturday  7   Samstag
 ' Von 2 (Montag) bis 6 (Freitag) soll eine Datei angelegt werden, bzw. erst
 ' kopiert und dann umbenannt werden, Sonntag und Samstag nicht!
+' Es werden ebenfalls keine Feiertage berücksichtigt! 
 
 Select Case sWochentag
     Case 2 To 6
@@ -96,8 +97,8 @@ Dim SourceFile, DestinationFile
 ' Vorlagendatei kopieren
 SourceFile = sVorlagendatei ' Define source file name.
 DestinationFile = Worksheets("Versandplaene").Range("B4").Value & "\" & _
-                  Worksheets("Versandplaene").Range("B2").Value ' Define target file name.
-FileCopy SourceFile, DestinationFile ' Copy source to target
+Worksheets("Versandplaene").Range("B2").Value ' dateinamen erstellen
+FileCopy SourceFile, DestinationFile ' Datei umbenennen
 Vorlage_Copy = True
 End Function
 
