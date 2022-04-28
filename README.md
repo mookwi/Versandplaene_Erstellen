@@ -1,4 +1,4 @@
-![](https://github.com/mookwi/Versandplaene_Erstellen/blob/main/VBA256.png)
+![](https://github.com/mookwi/Versandplaene_Erstellen/blob/main/VBA_600x240.png)
 
 ![](https://img.shields.io/github/stars/mookwi/Versandplaene_Erstellen.svg)
 ![](https://img.shields.io/github/forks/mookwi/Versandplaene_Erstellen.svg) 
