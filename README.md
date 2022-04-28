@@ -1,4 +1,4 @@
-![](https://github.com/mookwi/Datensaetze_Vereinzeln/blob/main/VBA256.png)
+![](https://github.com/mookwi/Versandplaene_Erstellen/blob/main/VBA256.png)
 
 ![](https://img.shields.io/github/stars/mookwi/Versandplaene_Erstellen.svg)
 ![](https://img.shields.io/github/forks/mookwi/Versandplaene_Erstellen.svg) 
@@ -14,5 +14,5 @@ Funktion erstellt dann für jeden Werktag des entsprechenden Monats eine Excelta
 im Format "Abholung JJ-MM-TT.xls", z.B. für die Abholung 22-03-22.
 
 Temporäres Verzechnis, in die die Excel-Tabellen abgelegt werden z.B. 
-"T:\VERSANDPLAN\_Temp\" (siehe Feld B4) Monat und Jahr der zu erstellenden Versandpläne
+**T:\VERSANDPLAN\_Temp\*** (siehe Feld B4) Monat und Jahr der zu erstellenden Versandpläne
 z.B. "03" für Monat und "2022" für Jahr (siehe Feld B5 und B6)
